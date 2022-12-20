@@ -5,6 +5,8 @@ on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
+
+    node-version: [19.2.0]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
