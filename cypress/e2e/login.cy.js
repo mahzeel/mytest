@@ -13,8 +13,8 @@ describe("LAUNCH URL", function (){
       cy.get(login.passwordField).type('E.lens123456')
       cy.get(login.showIcon).click()
       cy.get(login.showIcon).click()
-      cy.get(login.signInBtn).click()
+      cy.get(login.signInBtn).click() 
+
 
 
   })
-})
